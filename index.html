@@ -13,11 +13,34 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/bf58a97d51.js" crossorigin="anonymous"></script>
-    <title>MOps</title>
 
-    <meta name="description" content="Мы команда разработчиков IT продуктов любого направления, которая предоставляет услуги аутсорса в самых различных областях, имеем богатый опыт в сфере разработки, можем похвастаться большой довольной клиентской базой и огромным количеством сотрудников, являющихся профессионалами в различных областях IT-индустрии">
+
+    <!-- SEO -->
+
+    <title>MOps - команда разработчиков IT любого направления</title>
+    <!-- Тип кодировки -->
+    <meta charset="UTF-8">
+    <!--
+        Основные значения атрибута:
+        index — страница доступна для индексации;
+        follow — ссылки на странице доступны к индексации и открыты для передачи ссылочного веса;
+    -->
+    <meta name="robots" content="index, follow">
+    <!-- сниппетов от 160 до 320 (норма). У нас 252 -->
+    <meta name="description" content="Мы команда разработчиков IT продуктов любого направления,
+     которая предоставляет услуги аутсорса в самых различных областях, имеем богатый опыт в 
+     сфере разработки, можем похвастаться большой довольной клиентской базой и огромным 
+     количеством сотрудников.">
+    <!-- Ключевые слова -->
     <meta name="keywords" content="разработка, разработка сайтов, разработка программ, 
     создание скриптов, создание бота, создание телеграмм бота, создание чат ботов" />
+
+    <!-- 
+        1. Добавил тег strong акцентирования в описани сайта
+        2. Добавил атрибуты title и alt каждой картинке и для каждой сделал описание
+    -->
+
+    <!-- SEO -->
 </head>
 <body>
        
@@ -45,7 +68,7 @@
             </nav>
             <div class="row">
                 <a target="_new" href="https://www.instagram.com/mops_magnumopus/?utm_medium=copy_link" class="col d-flex justify-content-center fadeInDown">
-                    <img id="MOps" src="./img/MOps.webp" class="MOpsImg"  alt="Magnum Opus" srcset=""> 
+                    <img id="MOps" title="Названия компании" alt="лого" src="./img/MOps.webp" class="MOpsImg"  alt="Magnum Opus" srcset=""> 
                     
                 </a>
             </div>
@@ -76,27 +99,29 @@
 
     <div class="grid">
         <div class="column">
-            <img  data-aos="fade-left" src="./img/aboutUs.webp" alt="" srcset="">
+            <img title="как это использовать" alt="о нас"  data-aos="fade-left" src="./img/aboutUs.webp" srcset="">
         </div>
         <div class="column">
             <h3 class="pt-5" data-aos="fade-left">Услуги аутсорса</h3>
             <p class="desc pt-5" data-aos="fade-left">
                 
-                
-                
-                Мы команда разработчиков IT продуктов любого направления, которая предоставляет услуги аутсорса в самых различных областях, имеем богатый опыт в сфере разработки, можем похвастаться большой довольной клиентской базой и огромным количеством сотрудников, являющихся профессионалами в различных областях IT-индустрии
-                <br><br>
-                 
-                Наша команда находится на рынке уже более трех лет, за это время у нас накопилось достаточно большое количество работ, с некоторыми из которых вы ознакомитесь ниже
-                <br><br>
+                <!-- Тег акцентирования - наиболее важные мысли -->
+                <strong style="font-weight: 200">
+                    Мы команда разработчиков IT продуктов любого направления, которая предоставляет услуги аутсорса в самых различных областях, имеем богатый опыт в сфере разработки, можем похвастаться большой довольной клиентской базой и огромным количеством сотрудников, являющихся профессионалами в различных областях IT-индустрии
+                    <br><br>
+                     
+                    Наша команда находится на рынке уже более трех лет, за это время у нас накопилось достаточно большое количество работ, с некоторыми из которых вы ознакомитесь ниже
+                    <br><br>
+    
+    
+                    Будем рады начать сотрудничать с вами по направлениям, предложенными нами здесь</p>
+                </strong>
 
-
-                Будем рады начать сотрудничать с вами по направлениям, предложенными нами здесь</p>
         </p>
         </div>
         <div class="column code d-flex justify-content-center align-items-center">
-            <img data-aos="fade-left" class="mr-3 arrow" src="./img/arrowLeft.webp" alt="" srcset="">
-            <img data-aos="fade-left" src="./img/about.webp" alt="" srcset="">
+            <img data-aos="fade-left" class="mr-3 arrow" src="./img/arrowLeft.webp" title="стрелка влево" alt="стрелка" srcset="">
+            <img data-aos="fade-left" title="О нашей компании" src="./img/about.webp" alt="о нас" srcset="">
         </div>
     </div>
 
@@ -175,8 +200,8 @@
 
     <div class="grid2">
         <div class="column code2 d-flex justify-content-center align-items-center">
-            <img data-aos="fade-right" class="services" src="./img/services.webp" alt="" srcset="">
-            <img data-aos="fade-right" class="ml-3 arrow" src="./img/arrowRight.webp" alt="" srcset="">
+            <img data-aos="fade-right" class="services" src="./img/services.webp" title="Подробней о наших услугах на сайте" alt="наши услуги" srcset="">
+            <img data-aos="fade-right" class="ml-3 arrow" src="./img/arrowRight.webp" title="Стрелка вправо" alt="стрелка" srcset="">
         </div>
         
         <div class="column">
@@ -196,7 +221,7 @@
         </div>
 
         <div class="column">
-            <img  data-aos="fade-right" src="./img/ourServices.webp" alt="" srcset="">
+            <img  data-aos="fade-right" src="./img/ourServices.webp" title="О нашем сервисе" alt="наши услуги" srcset="">
         </div>
     </div>
 
@@ -275,7 +300,7 @@
 
     <div class="grid">
         <div class="column">
-            <img  data-aos="fade-left" src="./img/Benefit.webp" alt="" srcset="">
+            <img  data-aos="fade-left" src="./img/Benefit.webp" title="Выгода от сотрудничества с нашей компанией" alt="выгода" srcset="">
         </div>
         <div class="column">
             
@@ -300,8 +325,8 @@
                 <br><br>
                 Достаточно оставить заявку и наш менеджер проконсультирует вас по любому вопросу!</div>
         <div class="column code3 d-flex justify-content-center align-items-center">
-            <img data-aos="fade-left" class="mr-3 arrow" src="./img/arrowLeft.webp" alt="" srcset="">
-            <img data-aos="fade-left" src="./img/profit.webp" alt="" srcset="">
+            <img data-aos="fade-left" class="mr-3 arrow" src="./img/arrowLeft.webp" title="Стрелка влево" alt="стрелка" srcset="">
+            <img data-aos="fade-left" src="./img/profit.webp" title="Польза от сотрудничества с нами" alt="польза" srcset="">
         </div>
     </div>
 
@@ -323,75 +348,11 @@
 
 
     <div class="section2">
-        <div class="carousel my-5"> 
-            <div>
-                <div class="card" style="width: 18rem;">
-                      <a href="https://titan.viita-watches.com/en/"><img class="card-img-top" src="./img/viita.webp" alt="Card image cap"></a>
-                      <div class="card-body">
-                      <p class="card-text">VIITA SMARTWATCH - лендинг интернет магазина смарт часов, который представляет новые модели высококлассного производства фирмы
-                        <br><br> Смарт часы VIITA - это не только инновационно, но и очень стильно</p>
-                    </div>
-                  </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <a href="https://t.me/YTAudioDownloadBot"><img class="card-img-top" src="./img/ytad.webp" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <p class="card-text">YouTube Audio Downloader - Бот, позволяющий вам скачивать видео из сервера YouTube в формате MP3 без каких-либо проблем
-                       <br><br> Просто отправьте боту ссылку на нужное вам видео и скачайте его</p>
-                    </div>
-                  </div>
-            </div>            
-            <div>
-                <div class="card" style="width: 18rem;">
-                  <a href="https://t.me/Choogle_bot"><img class="card-img-top" src="./img/choogle.webp" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <p class="card-text">Choogle_bot - бот, который поможет найти вам единомышленников, друзей и просто интересных личностей
-
-                       <br><br> Выберите понравившуюся, из множества предоставленных вам, категорию по вкусу, а далее чат из этой категории, в котором вы сможете знакомиться с новыми людьми, увлекающимися тем же, чем и вы</p>
-                    </div>
-                  </div>
-            </div>            
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <a href="https://www.balsoy.fr"><img class="card-img-top" src="./img/balsoy.webp" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <p class="card-text">Balsoy - лендинг, доказывающий идеальное сочетание итальянского бальзамического уксуса вместе с японским соевым соусом
-                      <br><br>  На сайте показано множество аппетитных блюд, которые становятся ещё вкуснее вместе с Balsoy!</p>
-                    </div>
-                  </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <a href="https://apps.apple.com/ua/app/супра-грузинский-ресторан/id1222845288?l=ru"><img class="card-img-top" src="./img/supra.webp" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <p class="card-text">Супра - ресторан вкуснейшей грузинской кухни!
-                        Множество разнообразных блюд на ваш выбор: хинкали, хачапури и другие детища этой прекрасной национальной кухни
-                       <br><br> Но если вам не хочется выходить из дому, чтобы отведать грузниской кухни - у вас есть возможность заказать доставку</p>
-                    </div>
-                  </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <a href="https://maslo.ai"><img class="card-img-top" src="./img/maslo.webp" alt="Card image cap"></a>
-                    <div class="card-body">
-                      <p class="card-text">maslo.ai- лендинг, представляющий вам выбор компьютеризированного компаньона, готового помочь вам в рабочих, семейных и ментальных проблемах, а так же обрести духовное спокойствие</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-              <div class="card" style="width: 18rem;">
-                  <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/tolik.webp" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <p class="card-text">Толик - мастак в области тостов, анекдотов и шуток!
-                     <br><br> Попросите этого бота рассказать вам смешной анекдот или придумать прекрасный тост, чтобы делиться ими со своими друзьями</p>
-                  </div>
-              </div>
-          </div>
+        <div class="carousel my-5">            
 
           <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/F77CED42-62A0-41DA-BB93-51CD1976FDE9.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/F77CED42-62A0-41DA-BB93-51CD1976FDE9.webp" title="EAZZY- Бот поддержки самокатов" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">EAZZY- Бот поддержки самокатов EAZZY
                     Смотрите часто задаваемые вопросы и ответы на них
@@ -402,7 +363,7 @@
 
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7436.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7436.webp" title="Tik-Tok Money - Бот, созданный для тех, кто хочет зарабатывать на своём тик-токе!" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Tik-Tok Money - Бот, созданный для тех, кто хочет зарабатывать на своём тик-токе!
                     <br><br>Выполняйте несложные задачи, поставленные вам в боте, с помощью вашего тик-ток аккаунта и зарабатывайте реальные деньги </p>
@@ -412,7 +373,7 @@
 
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7435.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7435.webp" title="Stop danger - Харьковский муниципальный проект" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Stop danger - Харьковский муниципальный проект, созданный для улучшения жизни и безопасности граждан, к которому мы приложили свою руку!</p>
                 </div>
@@ -421,7 +382,7 @@
 
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7431.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7431.webp" title="Our creatives- были созданы в рекламных и ознакомительных целях" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Our creatives- были созданы в рекламных и ознакомительных целях, дабы привлечь внимание людей, интересующихся видео-рекламой
                     Вы можете ознакомится с ними в нашем телеграм-канале!</p>
@@ -431,7 +392,7 @@
         
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7432.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7432.webp" title="Shop - магазин электронных сигарет elf bar" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Shop - магазин электронных сигарет elf bar, созданный с помощь разработанного нами шаблона простых ботов-магазинов, который можно адаптировать бод любой товар и валюту!</p>
                 </div>
@@ -440,7 +401,7 @@
 
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/78CADD88-3A42-4D30-8798-A4DFBE2A00F6.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/78CADD88-3A42-4D30-8798-A4DFBE2A00F6.webp" title="Illustrations- были созданы для общеобразовательного сайта" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Illustrations- были созданы для общеобразовательного сайта и проработаны по всем требованиям заказчика</p>
                 </div>
@@ -449,7 +410,7 @@
         
         <div>
             <div class="card" style="width: 18rem;">
-                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7434.webp" alt="Card image cap"></a>
+                <a href="https://t.me/KLEN_Alko_Bot"><img class="card-img-top" src="./img/IMG_7434.webp" title="Stickers- Стикеры «эзотерика», которые понравятся ценителям психодуховных практик" alt="Card image cap"></a>
                 <div class="card-body">
                   <p class="card-text">Stickers- Стикеры «эзотерика», которые понравятся ценителям психодуховных практик</p>
                 </div>
@@ -490,7 +451,7 @@
                     <p data-aos="fade-down">Заказывай</p>
 
                     <a target="_new" href="https://www.instagram.com/mops_magnumopus/?utm_medium=copy_link" class="logoBack">
-                        <img id="dogLogo" class="img-fluid" data-aos="fade" src="./img/dogLogo.webp" alt="">
+                        <img id="dogLogo" class="img-fluid" data-aos="fade" title="Логотип нашего сайта" src="./img/dogLogo.webp" alt="логотип">
                     </a>
 
                     <button class="btn" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">ЗАКАЗАТЬ СЕЙЧАС</button>
@@ -690,19 +651,23 @@
                     <p>Instagram</p>
                 </a>
             </div>
+
         </div>
+
     </div>
 
 
+    <!-- В подвале сайта надпись о защите прав -->
     <div class="protected">
         © Все права защищены magnumopus.space 2018-2021
-    </div>    
+    </div>
+    <!-- Конец надписи сайта о защите прав -->
 
-        <!-- Кнопка для скрола к верху страницы -->
-        <div class="switch">
-            <i class="fas fa-arrow-alt-circle-up"></i>
-        </div>
-        <!-- Конец кнопки для скрола к верху страницы -->
+    <!-- Кнопка для скрола к верху страницы -->
+    <div class="switch">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    </div>
+    <!-- Конец кнопки для скрола к верху страницы -->
     
 </body>
 </html>
